@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 The CyanogenMod Project
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+
+<resources>
+
+    <!-- Voice shutter trigger commands -->
+    <string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>set</item>
+        <item>send</item>
+        <item>vcd</item>
+        <item>威士忌</item>
+        <item>喂食器</item>
+        <item>我系</item>
+        <item>茄子</item>
+    </string-array>
+
+    <string-array name="widget_flash_hints">
+        <item>自动</item>
+        <item>禁用</item>
+        <item>启用</item>
+        <item>Torch</item>
+        <item>去除红眼</item>
+    </string-array>
+
+    <string-array name="widget_effects_hints">
+        <item>禁用</item>
+        <item>黑 &amp; 白</item>
+        <item>反色</item>
+        <item>曝光</item>
+        <item>Sepia</item>
+        <item>色调分离</item>
+        <item>黑板</item>
+        <item>白板</item>
+        <item>Aqua</item>
+        <item>拷花</item>
+        <item>素描</item>
+        <item>Neon</item>
+    </string-array>
+
+    <string-array name="widget_iso_hints">
+        <item>自动 ISO</item>
+        <item>防抖动 ISO</item>
+        <item>100 ISO</item>
+        <item>200 ISO</item>
+        <item>400 ISO</item>
+        <item>800 ISO</item>
+        <item>1600 ISO</item>
+    </string-array>
+
+    <string-array name="widget_scenemode_hints">
+        <item>自动</item>
+        <item>运动模糊弱化</item>
+        <item>现实增强</item>
+        <item>最佳拍摄</item>
+        <item>婴儿</item>
+        <item>背光</item>
+        <item>人像背光</item>
+        <item>条码</item>
+        <item>海滩</item>
+        <item>烛光</item>
+        <item>黄昏</item>
+        <item>餐盘</item>
+        <item>文档</item>
+        <item>焰火</item>
+        <item>花卉</item>
+        <item>手持光源</item>
+        <item>HDR</item>
+        <item>高灵敏度</item>
+        <item>景观</item>
+        <item>夜晚</item>
+        <item>夜间人像</item>
+        <item>夜间人像</item>
+        <item>聚会</item>
+        <item>宠物</item>
+        <item>肖像</item>
+        <item>雪</item>
+        <item>软肤</item>
+        <item>竞技</item>
+        <item>聚光灯</item>
+        <item>Steady photo</item>
+        <item>日落</item>
+        <item>Sweep stitch</item>
+        <item>剧院</item>
+    </string-array>
+
+    <string-array name="widget_whitebalance_hints">
+        <item>自动</item>
+        <item>阴天</item>
+        <item>白炽灯</item>
+        <item>荧光灯</item>
+        <item>日光</item>
+        <item>阴天日光</item>
+    </string-array>
+
+    <string-array name="widget_autoexposure_hints">
+        <item>帧平均</item>
+        <item>中心加权</item>
+        <item>点测光</item>
+    </string-array>
+</resources>

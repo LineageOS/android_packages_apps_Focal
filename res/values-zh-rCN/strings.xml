@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2013 The CyanogenMod Project
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+-->
+<resources>
+
+    <string name="app_name">Focal</string>
+    <string name="launch_app">运行 Focal</string>
+    <string name="shutter_button">快门按钮</string>
+    <string name="cannot_connect_hal">无法连接到相机</string>
+    <string name="recording">录像中</string>
+    <string name="double_tap_to_snapshot">双击拍摄照片</string>
+    <string name="video_res_1080p">全高清 (1080p)</string>
+    <string name="video_res_720p">高清 (720p)</string>
+    <string name="video_res_480p">标清 (480p)</string>
+    <string name="video_res_mms">MMS (288p)</string>
+    <string name="no_gles20_support">您的设备不支持 GLES2</string>
+    <string name="no_gyroscope">您的设备没有陀螺仪</string>
+    <string name="ps_long_press_to_stop">长按快门按钮已结束环绕.</string>
+    <string name="disabled">禁用</string>
+    <string name="enabled">启用</string>
+    <string name="no_video_player">无法播放视频, 没有找到播放器</string>
+    <string name="fullscreen_shutter_info">点击任何地方拍摄</string>
+    <string name="please_wait">请稍候\u2026</string>
+    <string name="retouch">润色</string>
+    <string name="open_in_gallery">图库</string>
+
+    <string name="mode_photo">照片</string>
+    <string name="mode_video">视频</string>
+    <string name="mode_picsphere">环景</string>
+    <string name="mode_panorama">全景</string>
+    <string name="mode_switchcam">换脸</string>
+
+    <!-- Widgets hints for non-arrayed widgets -->
+    <string name="widget_burstmode_count_shots">爆光 %d 拍摄</string>
+    <string name="widget_burstmode_off">禁用爆光模式</string>
+    <string name="widget_burstmode_infinite">无限爆光</string>
+
+    <string name="widget_hdr_aebracket">自动包围 </string>
+
+    <string name="widget_settings_choose_widgets">选择在侧边栏的小部件</string>
+    <string name="widget_settings_choose_widgets_button">选择小部件</string>
+    <string name="widget_settings_picture_size">图片尺寸</string>
+    <string name="widget_settings_exposure_ring">显示曝光环</string>
+    <string name="widget_settings_autoenhance">自动增强</string>
+    <string name="widget_settings_ruleofthirds">三分法</string>
+
+
+    <string name="widget_autoexposure">曝光测量模式</string>
+    <string name="widget_burstmode">突发模式</string>
+    <string name="widget_effect">颜色效果</string>
+    <string name="widget_enhancements">颜色增强</string>
+    <string name="widget_exposure_compensation">曝光补偿</string>
+    <string name="widget_flash">闪光模式</string>
+    <string name="widget_hdr">高动态范围</string>
+    <string name="widget_iso">ISO 灵敏度</string>
+    <string name="widget_scenemode">场景模式</string>
+    <string name="widget_settings">设置</string>
+    <string name="widget_shutter_speed">快门速度</string>
+    <string name="widget_skintone">增强肤色</string>
+    <string name="widget_softwarehdr">高动态范围</string>
+    <string name="widget_timermode">定时模式</string>
+    <string name="widget_videofr">视频帧率</string>
+    <string name="widget_videohdr">视频高动态范围</string>
+    <string name="widget_whitebalance">白色平衡</string>
+
+    <!-- Panorama mode -->
+
+    <string name="pano_panorama_rendering_failed">渲染全景失败.\n尝试采取一个更短的.</string>
+    <string name="pano_panorama_rendering">Rendering panorama\u2026</string>
+
+    <!-- PicSphere status -->
+    <string name="picsphere_undo_button">撤销</string>
+    <string name="picsphere_start_hint">拍摄一张照片将启动环拍摄</string>
+    <string name="picsphere_already_rendering">请等待当前的环景渲染</string>
+    <string name="picsphere_rendering_progress">渲染中\u2026 (%d %%)</string>
+    <string name="picsphere_toast_background_render">渲染开始\u2026</string>
+    <string name="picsphere_notif_title">环景渲染中\u2026</string>
+    <string name="picsphere_failed">环景渲染失败</string>
+    <string name="picsphere_failed_details">确保照片只有其边缘重叠.</string>
+    <string name="picsphere_need_two_pics">您需要至少两张照片.</string>
+    <string name="picsphere_step_preparing">准备中\u2026</string>
+    <string name="picsphere_step_autopano">匹配照片\u2026</string>
+    <string name="picsphere_step_autooptimiser">优化匹配中\u2026</string>
+    <string name="picsphere_step_ptclean">清除匹配点\u2026</string>
+    <string name="picsphere_step_panomodify">裁剪空区域\u2026</string>
+    <string name="picsphere_step_nona">拼接照片\u2026</string>
+    <string name="picsphere_step_enblend">混合照片\u2026</string>
+
+    <!-- Software HDR status -->
+    <string name="software_hdr_notif_title">HDR 计算中\u2026</string>
+    <string name="software_hdr_failed">HDR 渲染失败</string>
+    <string name="software_hdr_failed_details">请保持源画面.</string>
+
+    <!-- Showcase text -->
+    <string name="showcase_welcome_1_title">欢迎!</string>
+    <string name="showcase_welcome_1_body">选项在侧边栏,\n滑动即可.</string>
+    <string name="showcase_welcome_2_title">快门按钮</string>
+    <string name="showcase_welcome_2_body">点击快门按钮拍摄.\n滑动它来访问其它拍摄模式.</string>
+    <string name="showcase_panorama_title">全景模式</string>
+    <string name="showcase_panorama_body">点击快门按钮开始全景模式拍摄,\n然后平移并捕捉.\n一旦完成, 再次轻按快门按钮.</string>
+    <string name="showcase_picsphere_title">环景模式</string>
+    <string name="showcase_picsphere_body">对准你喜欢第一张照片,\n然后轻按快门拍摄每张环景照片\n. 蓝点是您的参照点.\n长按快门按钮完成拍摄.</string>
+
+    <string name="iso_hint_auto">自动 ISO</string>
+    <string name="iso_hint_hjr">防抖动 ISO</string>
+
+</resources>
